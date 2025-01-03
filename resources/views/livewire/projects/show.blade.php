@@ -1,9 +1,2 @@
-<div>
-    show
-
-    {{-- @dump($project) --}}
-    <pre>
-        title: {{ $project->title }}
-        description: {!! $project->description !!}
-    </pre>
-</div>
+{{-- @dump($project) --}}
+<x-projects.card :$project />
