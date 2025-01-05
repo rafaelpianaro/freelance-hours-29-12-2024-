@@ -14,6 +14,9 @@ export default {
             fontFamily: {
                 sans: ['Segoe UI', 'sans-serif'],
             },
+            fontSize: {
+                'xs-custom': '12px',
+            },
         },
     },
     plugins: [],

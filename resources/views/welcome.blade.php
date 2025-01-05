@@ -1,3 +1,3 @@
 <x-layouts.app>
-    oi
+    welcome
 </x-layouts.app>
