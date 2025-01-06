@@ -43,6 +43,7 @@ class Create extends Component
                 'hours' => $this->hours,
             ]);
 
+        // $this->dispatch('proposal::created')->to('compoment'); avisar um componente expecífico
         $this->dispatch('proposal::created');
         $this->modal = false;
     }
